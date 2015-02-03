@@ -1,0 +1,12 @@
+LOGPLAY_ROOT=../../tos/lib/logplay
+
+PFLAGS += \
+	-I$(LOGPLAY_ROOT)/ \
+	-I$(LOGPLAY_ROOT)/log \
+	-I$(LOGPLAY_ROOT)/log/interfaces \
+	-I$(LOGPLAY_ROOT)/log/base \
+	-I$(LOGPLAY_ROOT)/log/custom \
+	-I$(LOGPLAY_ROOT)/replay \
+	-I$(LOGPLAY_ROOT)/replay/interfaces \
+	-I$(LOGPLAY_ROOT)/replay/base \
+	-I$(LOGPLAY_ROOT)/replay/custom \
